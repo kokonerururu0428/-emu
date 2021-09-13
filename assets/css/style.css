@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #a25768;
 }
 
 .section-title--story {
@@ -307,7 +307,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #a25768;
 }
 
 .section-title--border::after {
@@ -336,7 +336,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #a25768;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
@@ -441,7 +441,7 @@ button {
 }
 
 .err-message {
-  color: #c1272d;
+  color: #d69090;
   font-size: 18px;
   text-align: center;
 }
@@ -453,7 +453,7 @@ button {
 }
 
 .clear-message {
-  background-color: #d9e021;
+  background-color: #d69090;
   padding: 30px 30px 60px;
   position: relative;
 }
