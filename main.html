@@ -179,13 +179,13 @@ Youtube貼り付けここまで -->
         </section>
 
         <!-- STAGE2クリア画面　ここから -->
-        <section v-if="clear['stage３']" v-bind:class="{isClear:clear['stage３']}"  class="section section--clear bg-color--gray"> <!-- koko -->
+        <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray"> 
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
               <div class="clear-message__content">クラゲの悩みを代わりに解いてあげると、陸への道を教えてくれた。<br>
                 あと、少し。もう少し。</div>
-                <button v-on:click="nextStage('stage３')" onclick="location.href='#sectionStage４'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button><!-- koko -->
+                <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
