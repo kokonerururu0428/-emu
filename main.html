@@ -179,13 +179,13 @@ Youtube貼り付けここまで -->
         </section>
 
         <!-- STAGE2クリア画面　ここから -->
-        <section v-if="clear['stage３']" v-bind:class="{isClear:clear['stage３']}"  class="section section--clear bg-color--gray">
+        <section v-if="clear['stage３']" v-bind:class="{isClear:clear['stage３']}"  class="section section--clear bg-color--gray"> <!-- koko -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
               <div class="clear-message__content">クラゲの悩みを代わりに解いてあげると、陸への道を教えてくれた。<br>
                 あと、少し。もう少し。</div>
-                <button v-on:click="nextStage('stage３')" onclick="location.href='#sectionStage４'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
+                <button v-on:click="nextStage('stage３')" onclick="location.href='#sectionStage４'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button><!-- koko -->
             </div>
           </div>
         </section>
@@ -314,7 +314,7 @@ Youtube貼り付けここまで -->
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
               4番目の引数 'final' は最終ステージを表します。
             ------------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage3']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage3']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input><!-- koko -->
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
